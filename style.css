@@ -27,7 +27,6 @@ a {
 
 .header .name {
     color: #2E008B;
-    font-weight: 300;
     font-size: 21px;
     padding-left: 18.75vw;
     padding-top: min(1.6vw, 16px);
@@ -44,7 +43,6 @@ a {
 
 .first .title {
     color: #2E008B;
-    font-weight: 300;
     font-size: 28px;
     padding-left: 10vw;
 }
