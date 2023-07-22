@@ -1,0 +1,176 @@
+* {
+    font-family: "Museo Sans Rounded", Arial;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /*border: 1px solid red;*/
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #C8C9C7;
+}
+
+a {
+    text-decoration: none;
+    font-size: 14px, 2.4vmin;
+}
+
+.header {
+    background-color: #C8C9C7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .name {
+    color: #2E008B;
+    font-weight: 100;
+    font-size: 21px;
+    padding-left: 18.75vw;
+    padding-top: min(1.6vw, 16px);
+}
+
+.first {
+    background-color: #C8C9C7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3.2vw;
+    padding: min(1.6vw, 16px);
+}
+
+.first .title {
+    color: #2E008B;
+    font-weight: 100;
+    font-size: 28px;
+    padding-left: 10vw;
+}
+
+.first .cont{
+    padding-right: 10vw;
+}
+
+.first .fluor {
+    width: min(30vw, 300px);
+    border-radius: 8px;
+    border: min(4px, 0.6vw) solid #2E008B;
+}
+
+.nav {
+    background-color: #E3E3E3;
+    padding: min(1.6vw, 16px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: min(48px, 4.8vw);
+    border-top: min(4px, 0.6vw) solid #666;
+    border-bottom: min(4px, 0.6vw) solid #666;
+}
+
+.nav a{
+    color: #EC008C;
+    font-size: 16px;
+}
+
+.second {
+    background-color: #C8C9C7;
+    padding: min(1.6vw, 16px);
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2.5vw;
+}
+
+.content {
+    border-radius: 8px;
+    border: min(4px, 0.6vw) solid #2E008B;
+    background-color: #ffffff;
+}
+
+.left {
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 16px;
+    height: fit-content;
+    position:-webkit-sticky;
+    position: sticky;
+    top: 0
+
+}
+
+.right {
+    width: 40vw;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: space-evenly;
+    gap: 14px;
+    font-size: 14px;
+    padding: 1vw;
+    height: fit-content;
+}
+
+.nadia {
+    width: 15vw;
+    border-radius: 8px;
+    border: min(4px, 0.6vw) solid #EC008C;
+    margin-top: 16px;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding:  min(8px, 0.8vw);
+}
+
+.linktree{
+    display: inline-block;
+    padding: 0px;
+    vertical-align: middle; 
+    
+}
+
+.socials {
+    margin-bottom: 16px;
+}
+
+.text {
+    font-size: 16px;
+    color: #2E008B;
+}
+
+@media (max-width: 1000px) {
+    .header .name {
+        font-size: 16px;
+        padding-left: 10vw;
+    }
+    .first .title {
+        font-size: 21px;
+    }
+    .left {
+        width: 35vw;
+    }
+    .right {
+        width: 57.5vw;
+    }
+    .nadia {
+        width: 30vw;
+    }
+    .text {
+        font-size: 14px;
+    }
+    .image {
+        width: 14px;
+    }
+}
