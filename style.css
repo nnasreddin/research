@@ -73,6 +73,10 @@ a {
     font-size: 16px;
 }
 
+.live {
+    text-decoration: underline;
+}
+
 .second {
     background-color: #C8C9C7;
     padding: min(1.6vw, 16px);
