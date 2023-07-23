@@ -106,13 +106,6 @@ a {
 .right {
     width: 40vw;
     background-color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    align-items: center ;
-    justify-content: space-evenly;
-    gap: 14px;
-    font-size: 14px;
-    padding: 1vw;
     height: fit-content;
 }
 
@@ -146,6 +139,19 @@ li {
 .text {
     font-size: 16px;
     color: #2E008B;
+}
+
+.bio-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: space-evenly;
+    gap: 14px;
+    font-size: 14px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    padding-left: min(8px, 1vw);
+    padding-right: min(8px, 1vw);
 }
 
 @media (max-width: 1000px) {
