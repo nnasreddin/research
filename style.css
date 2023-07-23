@@ -3,6 +3,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    line-height: 1.4em;
     /*border: 1px solid red;*/
 }
 
@@ -84,7 +85,8 @@ a {
     align-items: top;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 2.5vw;
+    column-gap: 2.5vw;
+    row-gap: min(1.6vw, 16px);
 }
 
 .content {
@@ -125,7 +127,7 @@ ul {
     list-style-type: none;
 }
 
-li {
+.socials ul li {
     padding:  min(8px, 0.8vw);
 }
 
@@ -145,7 +147,7 @@ li {
     color: #2E008B;
 }
 
-.bio-text {
+.bio-text, .abstract-text, .abstract-image, .acknowledgements, .key-references {
     display: flex;
     flex-direction: column;
     align-items: center ;
@@ -154,8 +156,40 @@ li {
     font-size: 14px;
     margin-top: 14px;
     margin-bottom: 14px;
-    padding-left: min(8px, 1vw);
-    padding-right: min(8px, 1vw);
+    padding-left: min(8px, 2vw);
+    padding-right: min(8px, 1.5vw);
+}
+
+.abstract-text, .abstract-image, .acknowledgements, .key-references {
+    width: 60vw;
+}
+
+.key-references ul{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.key-references ul li a{
+    color: #000000;
+}
+
+.abstract {
+    width: 40vw;
+}
+
+h3 {
+    font-size: 21px;
+    font-weight: 400;
+    width: 50vw;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+img {
+    pointer-events: none;
 }
 
 @media (max-width: 1000px) {
@@ -180,5 +214,15 @@ li {
     }
     .image {
         width: 14px;
+    }
+    .abstract-text, .abstract-image, .acknowledgements, .key-references {
+        width: 90vw;
+    }
+    h3{
+        font-size: 16px;
+        width: 80vw
+    }
+    .abstract {
+        width: 80vw;
     }
 }
