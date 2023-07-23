@@ -173,7 +173,6 @@ ul {
 .key-references ul li a{
     color: #000000;
     overflow-wrap: break-word;
-    word-wrap: break-word;
 }
 
 .abstract {
