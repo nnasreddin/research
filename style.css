@@ -172,6 +172,9 @@ ul {
 
 .key-references ul li a{
     color: #000000;
+}
+
+.key-references ul li {
     overflow-wrap: break-word;
 }
 
