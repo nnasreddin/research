@@ -176,6 +176,9 @@ ul {
 
 .key-references ul li {
     overflow-wrap: break-word;
+    width: 60vw;
+    padding-left: min(8px, 2vw);
+    padding-right: min(8px, 1.5vw);
 }
 
 .abstract {
@@ -219,7 +222,7 @@ img {
     .image {
         width: 14px;
     }
-    .abstract-text, .abstract-image, .acknowledgements, .key-references {
+    .abstract-text, .abstract-image, .acknowledgements, .key-references, .key-references ul li {
         width: 90vw;
     }
     h3{
