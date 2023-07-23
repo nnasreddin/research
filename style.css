@@ -172,8 +172,6 @@ ul {
 
 .key-references ul li a{
     color: #000000;
-    overflow-wrap: break-word;
-    width: 56.5vw;
 }
 
 .abstract {
@@ -219,9 +217,6 @@ img {
     }
     .abstract-text, .abstract-image, .acknowledgements, .key-references {
         width: 90vw;
-    }
-    .key-references ul li a {
-        width: 86.5vw;
     }
     h3{
         font-size: 16px;
