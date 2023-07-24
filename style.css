@@ -175,6 +175,10 @@ ul {
     display: inline-block;
 }
 
+.key-references ul li {
+    display: inline-block;
+}
+
 .abstract {
     width: 40vw;
 }
