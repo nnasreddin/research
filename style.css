@@ -176,6 +176,7 @@ ul {
 
 .key-references ul li{
     margin: 14px 0;
+    display: inline-block;
 }
 
 .key-references ul li a{
