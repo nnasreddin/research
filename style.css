@@ -3,7 +3,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    line-height: 1.4em;
+    /*line-height: 1.4em;*/
     /*border: 1px solid red;*/
 }
 
@@ -182,6 +182,7 @@ ul {
 .key-references ul li a{
     color: #000000;
     word-wrap: break-word;
+    display: inline-block;
 }
 
 .abstract {
