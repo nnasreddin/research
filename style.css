@@ -16,7 +16,7 @@ body {
 
 a {
     text-decoration: none;
-    font-size: 14px, 2.4vmin;
+    font-size: 14px;
 }
 
 .header {
@@ -174,14 +174,26 @@ ul {
     padding-right: min(8px, 1.5vw);
 }
 
-.key-references ul li{
-    margin: 14px 0;
-    display: inline-block;
+.references{
+    margin: 7px 0;
+    width: eval(60vw - 16px);
 }
 
-.key-references ul li a{
+.references ul {
+    display: inline-block;
+    word-break: break-all;
+}
+
+.references ul li{
+    margin: 7px 0;
+    display: inline-block;
+    word-break: break-all;
+}
+
+.references ul li a{
     color: #000000;
     display: inline-block;
+    word-break: break-all;
 }
 
 .abstract {
@@ -227,6 +239,9 @@ img {
     }
     .abstract-text, .abstract-image, .acknowledgements, .key-references {
         width: 90vw;
+    }
+    .references {
+        width: eval(90vw - 3.5vw);
     }
     h3{
         font-size: 16px;
