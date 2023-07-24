@@ -181,18 +181,14 @@ ul {
 
 .references ul {
     display: inline-block;
-    word-break: break-all;
 }
 
 .references ul li{
     margin: 7px 0;
-    display: inline-block;
-    word-break: break-all;
 }
 
 .references ul li a{
     color: #000000;
-    display: inline-block;
     word-break: break-all;
 }
 
