@@ -172,11 +172,12 @@ ul {
 
 .key-references ul li a{
     color: #000000;
-    display: inline-block;
+    word-wrap: break-word;
 }
 
 .key-references ul li {
     display: inline-block;
+    overflow: hidden;
 }
 
 .abstract {
