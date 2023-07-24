@@ -146,7 +146,7 @@ ul {
     color: #2E008B;
 }
 
-.bio-text, .abstract-text, .abstract-image, .acknowledgements, .key-references {
+.bio-text, .abstract-text, .abstract-image, .acknowledgements {
     display: flex;
     flex-direction: column;
     align-items: center ;
@@ -163,12 +163,24 @@ ul {
     width: 60vw;
 }
 
+.key-references {
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: space-evenly;
+    font-size: 14px;
+    margin-top: 14px;
+    padding-left: min(8px, 2vw);
+    padding-right: min(8px, 1.5vw);
+}
+
 .key-references ul li{
     margin: 14px 0;
 }
 
 .key-references ul li a{
     color: #000000;
+    display: inline-block;
 }
 
 .abstract {
