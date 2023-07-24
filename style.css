@@ -160,6 +160,11 @@ ul {
     padding-right: min(8px, 1.5vw);
 }
 
+.key-references {
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
 .abstract-text, .abstract-image, .acknowledgements, .key-references {
     width: 60vw;
 }
@@ -172,12 +177,6 @@ ul {
 
 .key-references ul li a{
     color: #000000;
-    word-wrap: break-word;
-}
-
-.key-references ul li {
-    display: inline-block;
-    overflow: hidden;
 }
 
 .abstract {
