@@ -14,6 +14,7 @@ body {
     background-color: #C8C9C7;
 }
 
+
 a {
     text-decoration: none;
     font-size: 14px;
@@ -71,7 +72,7 @@ a {
 
 .nav a{
     color: #EC008C;
-    font-size: 16px;
+    font-size: 16px; 
 }
 
 .live {
@@ -87,6 +88,12 @@ a {
     flex-wrap: wrap;
     column-gap: 2.5vw;
     row-gap: min(1.6vw, 16px);
+}
+
+.second-poster {
+    display: flex;
+    align-items: top;
+    justify-content: start;
 }
 
 .content {
@@ -210,6 +217,10 @@ img {
     pointer-events: none;
 }
 
+.poster {
+    width: 100vw;
+}
+
 @media (max-width: 1000px) {
     .header .name {
         font-size: 16px;
@@ -245,5 +256,11 @@ img {
     }
     .abstract {
         width: 80vw;
+    }
+    .poster {
+        width: 200vw;
+    }
+    .poster-body{
+        width: 200vw;
     }
 }
