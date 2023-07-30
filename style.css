@@ -94,6 +94,7 @@ a {
     display: flex;
     align-items: top;
     justify-content: start;
+    height: fit-content;
 }
 
 .content {
@@ -262,5 +263,6 @@ img {
     }
     .poster-body{
         width: 200vw;
+        height: fit-content;
     }
 }
