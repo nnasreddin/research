@@ -167,6 +167,16 @@ ul {
     padding-right: min(8px, 1.5vw);
 }
 
+.short-ref {
+    gap: 14px;
+    font-size: 14px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    padding-left: min(8px, 2vw);
+    padding-right: min(8px, 1.5vw);
+    text-align: right;
+}
+
 .abstract-text, .abstract-image, .acknowledgements, .key-references {
     width: 60vw;
 }
@@ -218,6 +228,10 @@ img {
     pointer-events: none;
 }
 
+.wnt-short, .wnt-long {
+    width: 70vw;
+}
+
 .poster {
     width: 100vw;
 }
@@ -264,5 +278,11 @@ img {
     .poster-body{
         width: 200vw;
         height: fit-content;
+    }
+    .wnt-short, .wnt-long {
+        width: 90vw;
+    }
+    .short-ref{
+        font-size: 12px;
     }
 }
